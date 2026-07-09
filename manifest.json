@@ -3,8 +3,13 @@
   "name": "Cat Replacer",
   "version": "1.0",
   "description": "Replaces all images on a webpage with random cat images.",
-  "permissions": ["scripting", "activeTab"],
-  "host_permissions": ["https://api.thecatapi.com/*"],
+  "permissions": [
+  "scripting",
+  "activeTab"
+],
+"host_permissions": [
+  "https://api.thecatapi.com/*"
+],
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
